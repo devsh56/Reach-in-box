@@ -1,0 +1,82 @@
+/* LoginStyle.css */
+
+/* Page layout */
+.page-layout {
+    background-color: black;
+    color: white;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Login container */
+.login-container {
+    background-color: #111214;
+    text-align: center;
+    padding: 2.5rem;
+    border-radius: 1.5rem;
+    border: 1px solid #343A40;
+    width: 100%;
+    max-width: 400px;
+}
+
+/* Title */
+.login-title {
+    font-size: 1.25rem;
+    font-weight: 600;
+    margin-top: 1.5rem;
+}
+
+/* Form style */
+.form-style {
+    margin-top: 1rem;
+    text-align: left;
+}
+
+/* Label style */
+.label-style {
+    display: block;
+    color: #CCCCCC;
+    font-size: 0.875rem;
+    margin-bottom: 0.5rem;
+}
+
+/* Input field style */
+.input-style {
+    width: 100%;
+    background-color: #1C1C1F;
+    color: white;
+    padding: 0.5rem 1rem;
+    border-radius: 0.5rem;
+    border: 1px solid #343A40;
+    outline: none;
+    margin-bottom: 1rem;
+}
+
+/* Button style */
+.create-account-btn {
+    background: linear-gradient(to right, #4B63DD, #0524BFFC);
+    color: white;
+    padding: 0.75rem 1.5rem;
+    border-radius: 0.375rem;
+    cursor: pointer;
+    width: 100%;
+    text-align: center;
+    margin-top: 1.5rem;
+    border: none; /* Remove default button border */
+}
+
+/* Already have an account text */
+.already-account-text {
+    margin-top: 2rem;
+    margin-bottom: 1.5rem;
+    color: #909296;
+}
+
+/* Sign-in link */
+.signin-link {
+    color: #C1C2C5;
+}

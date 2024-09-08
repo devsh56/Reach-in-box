@@ -1,0 +1,16 @@
+.upbar {
+    border-bottom: 2px solid #25262B; 
+    background-color: black; 
+    color: white; 
+    position: fixed; 
+    height: 4rem; 
+    width: 100vw; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+  }
+  
+  .upbar img {
+    height: 2.5rem;
+  }
+  

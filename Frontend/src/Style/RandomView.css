@@ -1,0 +1,32 @@
+.subview-container {
+    color: #5B5F66;
+    background-color: #ECEFF3;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    background-color: var(--background-color);
+  color: var(--text-color);
+  border-right: 2px solid var(--border-color);
+  }
+  
+  .subview-container.dark {
+    color: white;
+    background-color: black;
+  }
+  
+  .subview-heading {
+    font-size: 2rem;
+    margin: 2rem 0;
+  }
+  
+  .subview-subheading {
+    text-align: center;
+    color: #9E9E9E;
+  }
+  
+  .subview-container.dark .subview-subheading {
+    color: #9E9E9E;
+  }
+  

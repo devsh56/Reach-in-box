@@ -1,0 +1,53 @@
+.sidebar{
+    background-color: #ffffff; /* White background */
+    border-right: 2px solid #e0e0e0; /* Light gray border */
+    height: 100vh; /* Full viewport height */
+    width: 3.5rem; /* Fixed width */
+    display: flex; /* Flexbox layout */
+    flex-direction: column; /* Vertical layout */
+    justify-content: space-between; /* Space items evenly */
+    align-items: center; /* Center items horizontally */
+    padding: 1.5rem 0; /* Vertical padding */
+    position: fixed; /* Fixed position */
+    left: 0;
+    top: 0;
+    z-index: 10;
+    overflow-y: scroll; /* Scroll if content overflows */
+    background-color: var(--background-color);
+  color: var(--text-color);
+  border-right: 2px solid var(--border-color);
+  }
+  
+  .sidebar.dark {
+    background-color: #101113; /* Dark mode background */
+    border-right: 2px solid #343a40; /* Dark mode border */
+  }
+  
+  .sidebar img {
+    height: 2rem; /* Height of the logo */
+    border-radius: 0.75rem; /* Rounded corners */
+  }
+  .menu-item-container{
+        height: 50vh;
+  }
+  .menu-item {
+    cursor: pointer; /* Pointer cursor on hover */
+    padding: 0.25rem; /* Padding around the icon */
+    color: #aeaeae; /* Icon color */
+    font-size: 1.25rem; /* Icon size */
+  }
+  
+  .menu-item.selected {
+    background-color: #4a4a4a; /* Background color when selected */
+    border-radius: 0.5rem; /* Rounded corners */
+  }
+  
+  .user-avatar {
+    background-color: #2f855a; /* Avatar background color */
+    color: white; /* Avatar text color */
+    padding: 0.5rem; /* Padding */
+    border-radius: 50%; /* Circular avatar */
+    height: 5vh;
+    margin-bottom: 45px;
+  }
+  

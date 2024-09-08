@@ -1,0 +1,13 @@
+.onebox-container {
+    height: 100vh; /* Full viewport height */
+    width: 100vw;  /* Full viewport width */
+    padding-left: 3.5rem; /* Padding of 14px on the left */
+    background-color: var(--background-color);
+  color: var(--text-color);
+  border-right: 2px solid var(--border-color);
+  }
+  
+  .onebox-container.dark {
+    background-color: black; /* Dark mode background color */
+  }
+  
