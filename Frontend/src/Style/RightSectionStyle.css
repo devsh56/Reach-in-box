@@ -1,0 +1,101 @@
+.right-section-container {
+    border-left: 2px solid #e0e0e0;
+    background-color: white;
+    height: 100%;
+    overflow-y: scroll;
+    padding-left: 8px;
+    background-color: var(--background-color);
+  color: var(--text-color);
+  border-right: 2px solid var(--border-color);
+  overflow: hidden;
+  border-left: 1px solid grey;
+  }
+  
+  .lead-details {
+    margin-top: 20px;
+    background-color: #eceff3;
+    color: black;
+    border-radius: 8px;
+    padding: 10px 16px;
+  }
+  
+  .details-content {
+    padding: 0 24px;
+    margin: 40px 0;
+  }
+  
+  .detail-row {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+  }
+  
+  .detail-label {
+    color: #637381;
+  }
+  
+  .detail-value {
+    color: #b9b9b9;
+  }
+  
+  .activities-title {
+    margin-top: 32px;
+    background-color: #eceff3;
+    color: black;
+    border-radius: 8px;
+    padding: 10px 16px;
+  }
+  
+  .activities-content {
+    margin: 32px 16px;
+  }
+  
+  .campaign-name {
+    padding-left: 8px;
+    color: black;
+  }
+  
+  .campaign-details {
+    margin: 16px 0;
+    padding-left: 8px;
+    font-size: 14px;
+    color: black;
+  }
+  
+  .step-container {
+    display: flex;
+    align-items: center;
+    margin: 16px 0;
+  }
+  
+  .step-icon {
+    background-color: #eef1f4;
+    padding: 8px;
+    border-radius: 50%;
+  }
+  
+  .icon-image {
+    width: 48px;
+  }
+  
+  .step-details {
+    margin-left: 40px;
+    color: black;
+  }
+  
+  .step-status {
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    color: #b9b9b9;
+  }
+  
+  .icon-send {
+    margin-right: 8px;
+  }
+  
+  .icon-open {
+    margin-right: 8px;
+    color: yellow;
+  }
+  

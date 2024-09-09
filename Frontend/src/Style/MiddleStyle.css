@@ -1,0 +1,119 @@
+.center-page-container {
+    overflow-y: scroll;
+    height: 100%;
+    width: 46vw;
+    background-color: var(--background-color);
+  color: var(--text-color);
+  border-right: 2px solid var(--border-color);
+  overflow: hidden;
+  border-left: 1px grey solid;
+  }
+  
+  .center-page-header {
+    border-bottom: 2px solid #E0E0E0;
+    padding: 16px 32px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .center-page-header .email-info {
+    color: #000;
+  }
+  
+  .center-page-header .email-info .email-name {
+    font-size: 18px;
+  }
+  
+  .center-page-header .email-info .email-address {
+    font-size: 14px;
+    color: #343A40B2;
+  }
+  
+  .center-page-header .actions {
+    display: flex;
+    align-items: center;
+  }
+  
+  .action-item {
+    background-color: white;
+    border: 1px solid #343A40;
+    padding: 8px 12px;
+    border-radius: 8px;
+    color: #000;
+    margin-left: 8px;
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+  }
+  
+  .timeline {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin: 32px;
+  }
+  
+  .timeline-line {
+    height: 2px;
+    width: 100%;
+    background-color: #E0E0E0;
+  }
+  
+  .timeline-text {
+    position: absolute;
+    background-color: #E0E0E0;
+    padding: 8px 16px;
+    color: #000;
+    font-size: 14px;
+  }
+  
+  .mail-container {
+    background-color: white;
+    border: 1px solid #343A40;
+    margin: 16px 32px;
+    border-radius: 8px;
+  }
+  
+  .mail-header {
+    padding: 16px;
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .mail-header .mail-info {
+    color: #000;
+  }
+  
+  .mail-header .mail-info .subject {
+    font-weight: bold;
+  }
+  
+  .mail-header .mail-info .from-to {
+    color: #637381;
+    font-size: 14px;
+  }
+  
+  .mail-header .mail-date {
+    color: #637381;
+    font-size: 14px;
+  }
+  
+  .mail-body {
+    padding: 16px;
+    color: #172B4D;
+  }
+  
+  .reply-button {
+    position: fixed;
+    bottom: 16px;
+    left: 32px;
+    background: linear-gradient(to right, #4B63DD, #0524BF);
+    color: white;
+    padding: 8px 32px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+  }
+  
