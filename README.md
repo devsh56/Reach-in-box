@@ -19,7 +19,7 @@ Dependency  for the project:
       npm run build
 
   Tech Stack 
-    Frontend-> React,Javasript
+    Frontend-> React,Typescript
     Styling-> Css3
     Api-> Axios
     Routing-> React-router-dom
